@@ -13,7 +13,7 @@ const resolvers = {
           
               return userData;
             }
-          console.log("Sample");
+          console.log("Sample2");
             throw new AuthenticationError('Not logged in');
           },
         users: async () => {
